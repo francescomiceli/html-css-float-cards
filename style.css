@@ -25,6 +25,6 @@ h3{margin: 0;}
 
 .clearfix::after {content: "";clear: both;display: table;}
 
-.card{background-color: black; color: white;}
+.card{background-color: black; color: white; margin-left: 5px; margin-right: 10px;}
 
 .text-blue{color: lightskyblue;}
