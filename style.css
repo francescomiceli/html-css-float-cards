@@ -7,4 +7,11 @@ h1{color: purple; text-align: center;}
 
 /* Container */
 .container{max-width: 1000px; margin: 0 auto; text-align: center;}
+.container > div{width:33%; border: 1px solid red;}
 p{margin: 50px 0px;}
+
+.float-left{float: left;}
+.float-right{float: right;}
+
+
+.clearfix::after {content: "";clear: both;display: table;}
