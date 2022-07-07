@@ -9,15 +9,22 @@ img{width: 35%;}
 h1{color: purple; text-align: center;}
 
 /* ! Titolo */
-.title{max-width: 1000px; margin: 0 auto; text-align: center; padding-bottom: 30px;}
+.title p{max-width: 1000px; margin: 0 auto; text-align: center; padding-bottom: 30px;}
+.text{padding: 10px;}
+.text >p{margin-bottom: 0px;}
+
+h3{margin: 0;}
 
 /* Container */
 .container{max-width: 1000px; margin: 0 auto;}
 .container > div{width: calc(100% / 3);}
+.row_2{margin-top: 50px;}
 
 
 .float-left{float: left;}
 
 .clearfix::after {content: "";clear: both;display: table;}
-.text{background-color: black; color: white; width: 65%;}
 
+.card{background-color: black; color: white;}
+
+.text-blue{color: lightskyblue;}
